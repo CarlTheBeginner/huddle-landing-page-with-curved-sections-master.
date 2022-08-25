@@ -1,0 +1,108 @@
+/*********************/
+/** NAV SECTION
+/*********************/
+@media screen and (max-width: 80rem) {
+  .hero-section {
+    min-height: 230vh;
+  }
+
+  .hero-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .hero-section {
+    min-height: 220vh;
+  }
+  .hero-center {
+    max-width: 95vw;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+    width: 65%;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    justify-items: center;
+  }
+
+  .curvy-content {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-info-form {
+    order: 1;
+  }
+
+  .footer-info {
+    order: 2;
+  }
+
+  .stats-header-1 {
+    font-size: 3rem;
+  }
+  .stats-header-2 {
+    font-size: 3rem;
+  }
+
+  .stats-text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 37.5rem) {
+  .hero-section {
+    min-height: 200vh;
+  }
+
+  .footer-form {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .4rem;
+  }
+
+  .curvy-info {
+    text-align: center;
+  }
+
+  .hero-text {
+    font-size: .9rem;
+    width: 80%;
+    margin-bottom: 4rem;
+  }
+
+  .hero-title {
+    font-size: 1.9rem;
+  }
+
+  .navigation--logo-img {
+    width: 70%;
+  }
+
+  .hero-center {
+    max-width: 80vw;
+  } 
+
+  .curvy-title {
+    font-size: 2rem;
+  }
+
+  .call-to-action-title{
+    font-size: 2rem;
+  }
+}
