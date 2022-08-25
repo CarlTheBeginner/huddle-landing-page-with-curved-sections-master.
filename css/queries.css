@@ -105,4 +105,19 @@
   .call-to-action-title {
     font-size: 2rem;
   }
+
+  .footer-content {
+    width: 80vw;
+    max-width: 1100px;
+  }
+
+  .call-to-action {
+    width: 80vw;
+    max-width: 1170px;
+  }
+
+  .hero-center {
+    width: 80vw;
+    max-width: 1100px;
+  }
 }
