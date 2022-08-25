@@ -109,7 +109,8 @@ a {
   border-radius: 3rem;
   margin-bottom: 4rem;
   transition: all 0.5s ease-out;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .hero-btn:hover {
